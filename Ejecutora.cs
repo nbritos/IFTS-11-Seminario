@@ -37,6 +37,10 @@ namespace SeminarioUnidad1
                             {
                                 Console.WriteLine(f1.StackTrace);
                             }
+                            catch (Exception e1)
+                            {
+                                Console.WriteLine(e1.Message);
+                            }
 
                             Console.WriteLine("Ingrese DNI del alumno ");
                             var4 = int.Parse(Console.ReadLine());
