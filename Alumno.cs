@@ -18,23 +18,26 @@ namespace SeminarioUnidad1
         public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
         public int Documento { get => documento; set => documento = value; }
 
-
-        public Alumno(string nombre, string ape, DateTime fechanac,int dni)
+        public Alumno(string nombre, string ape, DateTime fechanac, int dni)
         {
-            this.Nombre = nombre;
+            this.nombre = nombre;
             this.apellido = ape;
             this.fechaNacimiento = fechanac;
             this.documento = dni;
         }
 
-        public int Edad(DateTime nac)
+        public static int Edad(DateTime nac)
         {
-            return DateTime.Now.Year - nac.Year;
+            int edad = DateTime.Today.Year - nac.Year;
+
+            if (nac.Date > DateTime.Today.AddYears(-edad)) edad--;
+
+            return edad;
         }
 
         public override String ToString()
         {
-            return ($"Alumno: {this.Nombre}\nApellido: {this.apellido.ToString()}\nDocumento: {this.documento.ToString()}\nEdad: {this.Edad(this.fechaNacimiento).ToString()}");
+            return ($"Alumno: {this.Nombre}\nApellido: {this.apellido.ToString()}\nDocumento: {this.documento.ToString()}\nEdad: {Edad(this.fechaNacimiento).ToString()}\nFecha de nacimiento: {this.fechaNacimiento.ToString("D")}");
         }
     }
 }
