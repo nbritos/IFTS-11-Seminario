@@ -1,0 +1,10 @@
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\3 - Practica Formularios.csproj.AssemblyReference.cache
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\_3___Practica_Formularios.Form1.resources
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\_3___Practica_Formularios.Properties.Resources.resources
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\3 - Practica Formularios.csproj.GenerateResource.cache
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\3 - Practica Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Nico\source\repos\3 - Practica Formularios\bin\Debug\3 - Practica Formularios.exe.config
+C:\Users\Nico\source\repos\3 - Practica Formularios\bin\Debug\3 - Practica Formularios.exe
+C:\Users\Nico\source\repos\3 - Practica Formularios\bin\Debug\3 - Practica Formularios.pdb
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\3 - Practica Formularios.exe
+C:\Users\Nico\source\repos\3 - Practica Formularios\obj\Debug\3 - Practica Formularios.pdb
